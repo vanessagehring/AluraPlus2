@@ -13,3 +13,10 @@ body{
     background-color: var(--preto-fundo);
     color: var(--branco-principal);
 }
+.principal{
+    background-image: url("IMG/background.png");
+    background-repeat: no-repeat;
+}
+.container{
+    height: 100vh;
+}
