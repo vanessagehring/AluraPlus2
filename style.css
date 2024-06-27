@@ -21,6 +21,7 @@ body{
     background-image: url("IMG/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
 }
 .container{
     height: 100vh;
@@ -34,6 +35,7 @@ body{
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 .botao-secundario{
     background-color: transparent;
@@ -46,4 +48,10 @@ body{
 .container-titulo{
     font-size: 28px;
     font-weight: 700;
+}
+.container-imagem{
+    margin: 1em 0 2em 0;
+}
+.container-caixa{
+    margin: 0 6em;
 }
